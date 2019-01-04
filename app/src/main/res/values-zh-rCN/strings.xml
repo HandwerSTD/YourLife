@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">你的生活</string>
+    <string name="hello">你好！\n不论你信不信，这个应用可以展示你的“真实生活”。\n\n（纯娱乐！）</string>
+    <string name="work">工作</string>
+    <string name="social">社交</string>
+    <string name="game">玩游戏</string>
+    <string name="try_to_switch_the_switches_below">尝试点击下面的开关。</string>
+</resources>

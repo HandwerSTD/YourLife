@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/hello"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/switchWork"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchWork"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="8dp"
+        android:checked="true"
+        android:text="@string/work"
+        android:onClick="oncWork"
+        app:layout_constraintBottom_toTopOf="@+id/switchSocial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Switch
+        android:id="@+id/switchSocial"
+        android:layout_width="86dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="76dp"
+        android:checked="false"
+        android:text="@string/social"
+        android:onClick="oncSoci"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:checked="false" />
+
+    <Switch
+        android:id="@+id/switchGame"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="8dp"
+        android:onClick="oncGame"
+        android:text="@string/game"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchSocial" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/try_to_switch_the_switches_below"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</android.support.constraint.ConstraintLayout>

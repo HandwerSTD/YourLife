@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Your Life</string>
+    <string name="hello">Hello! \nWhether you believe it or not, this app can show your \"real life\".  \n\n(Just for fun!)</string>
+    <string name="work">Work</string>
+    <string name="social">Social</string>
+    <string name="game">Game</string>
+    <string name="try_to_switch_the_switches_below">Try to switch the switches below.</string>
+</resources>
